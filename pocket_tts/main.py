@@ -63,7 +63,7 @@ web_app.add_middleware(
 async def root():
     """Serve the frontend."""
     static_path = Path(__file__).parent / "static" / "index.html"
-    content = static_path.read_text()
+    content = static_path.read_text(encoding="utf-8")
     # Replace the placeholder with the actual default text prompt
     print(str(tts_model.origin))
     content = content.replace(
