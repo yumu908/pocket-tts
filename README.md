@@ -1,4 +1,6 @@
 # Pocket TTS
+[huggingface Pocket TTS在线测试](https://huggingface.co/spaces/KevinAHM/pocket-tts-web)
+
 
 <img width="1446" height="622" alt="pocket-tts-logo-v2-transparent" src="https://github.com/user-attachments/assets/637b5ed6-831f-4023-9b4c-741be21ab238" />
 
